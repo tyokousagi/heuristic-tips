@@ -1,0 +1,16 @@
+{
+  "name": "heuristic-tips",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AHC向けヒューリスティックのtipsと実装例をまとめた静的サイト",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check": "node scripts/check-snippets.mjs && node scripts/check-tips.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

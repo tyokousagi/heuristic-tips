@@ -1,0 +1,41 @@
+/* tipsの出典行 */
+.vp-doc .tip-src {
+  margin: 4px 0 28px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc .tip-src a {
+  font-weight: 400;
+}
+
+/* tipsの見出しは数が多いので、区切り線で見分けやすくする */
+.vp-doc h3 {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--vp-c-divider);
+  font-size: 17px;
+}
+
+.vp-doc h2 + h3 {
+  border-top: none;
+  padding-top: 0;
+}
+
+.vp-doc table.source-table,
+.vp-doc table.tips-index {
+  display: table;
+  width: 100%;
+}
+
+.vp-doc .num {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.vp-doc .source-table .author {
+  font-size: 12px;
+  color: var(--vp-c-text-2);
+}

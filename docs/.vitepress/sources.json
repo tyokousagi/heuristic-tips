@@ -1,0 +1,590 @@
+[
+  {
+    "id": "psyho-tips",
+    "author": "Psyho",
+    "title": "ヒューリスティックとボットのコンテストについてのtips（Xのスレッド）",
+    "url": "https://threadreaderapp.com/thread/1605570944537280512.html",
+    "note": "焼きなまし、テスト、高速化、進め方についての約80件のtips。英語。"
+  },
+  {
+    "id": "terry-tuna",
+    "author": "terry_u16",
+    "title": "TUNA Camp 2026 京都Stage ヒューリスティックアルゴリズム入門",
+    "url": "https://speakerdeck.com/terryu16/tuna-camp-2026-jing-du-stage-hiyurisuteitukuarugorizumuru-men",
+    "note": "貪欲法、山登り法、焼きなまし法の入門スライド。TSPを題材にした実装の進め方。"
+  },
+  {
+    "id": "rhoo-beam",
+    "author": "rhoo",
+    "title": "高速なビームサーチが欲しい!!!",
+    "url": "https://qiita.com/rhoo/items/f2be256cde5ad2e62dde",
+    "note": "状態を差分の木で管理するビームサーチの実装と、同点時の多様性の確保。"
+  },
+  {
+    "id": "eijirou-beam",
+    "author": "eijirou",
+    "title": "差分更新ビームサーチライブラリの実装 (C++)",
+    "url": "https://eijirou-kyopro.hatenablog.com/entry/2024/02/01/115639",
+    "note": "Euler Tourの順に1つの状態を更新するビームサーチのライブラリと設計の解説。"
+  },
+  {
+    "id": "shindannin-sa",
+    "author": "shindannin",
+    "title": "焼きなまし法のコツ Ver. 1.3",
+    "url": "https://shindannin.hatenadiary.com/entry/2021/03/06/115415",
+    "note": "高速化、近傍、スコア関数、温度、デバッグを重要度つきでまとめた27項目。"
+  },
+  {
+    "id": "gasin-sa",
+    "author": "gasin",
+    "title": "誰でもできる焼きなまし法",
+    "url": "https://gasin.hatenadiary.jp/entry/2019/09/03/162613",
+    "note": "山登り法から焼きなまし法までの組み立て方と、遷移関数が満たすべき性質。"
+  },
+  {
+    "id": "thunder-gametree",
+    "author": "thunder",
+    "title": "世界四連覇AIエンジニアがゼロから教えるゲーム木探索入門",
+    "url": "https://qiita.com/thun-c/items/058743a25c37c87b8aa4",
+    "note": "ビームサーチ、chokudaiサーチ、モンテカルロ法、MCTSなどの探索の入門。"
+  },
+  {
+    "id": "terry-firststep",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic First-step Vol.1 講義スライド",
+    "url": "https://speakerdeck.com/terryu16/atcoder-heuristic-first-step-vol-dot-1-jiang-yi-suraido",
+    "note": "解法の選び方と、貪欲法を書いて改善していく進め方の講義。"
+  },
+  {
+    "id": "donanta-nyusui",
+    "author": "ヤギのアゴ",
+    "title": "【入水】茶色コーダーによるAHC入水記事",
+    "url": "https://zenn.dev/donanta/articles/6e9d08c94eb8ad",
+    "note": "環境構築と、水色になるまでに身につけたことの記録。"
+  },
+  {
+    "id": "hakomo-sa",
+    "author": "hakomo",
+    "title": "詳解 焼きなまし法",
+    "url": "https://github.com/hakomo/Simulated-Annealing-Techniques",
+    "note": "状態、近傍、探索空間の考え方を、Topcoderなどの実例つきで解説した文書群。"
+  },
+  {
+    "id": "thunder-bayes",
+    "author": "thunder",
+    "title": "AHC典型解法シリーズ第3弾「ベイズ推定」",
+    "url": "https://qiita.com/thun-c/items/688442aad6a0410545cc",
+    "note": "AHC030を題材に、尤度の計算、候補のプール、相互情報量での質問選びを実装する記事。"
+  },
+  {
+    "id": "aplysia-ahc030",
+    "author": "aplysia",
+    "title": "AHC030のseed0のバババッて決まるやつは結構簡単に作れるよという話",
+    "url": "https://qiita.com/aplysia/items/c3f2111110ac5043710a",
+    "note": "候補を全列挙してベイズ推定で絞り込む、AHC030の小さいケース向けの実装。"
+  },
+  {
+    "id": "yos1up-ahc003",
+    "author": "yos1up",
+    "title": "AHC003 2位解法",
+    "url": "https://speakerdeck.com/yos1up/ahc003-2wei-jie-fa",
+    "note": "辺のコストを多変量ガウス分布で推定し、探索と利用のバランスを調整する解法。"
+  },
+  {
+    "id": "terry-ahc041",
+    "author": "terry_u16",
+    "title": "AHC041解説",
+    "url": "https://speakerdeck.com/terryu16/ahc041jie-shuo",
+    "note": "自明な解から貪欲法、焼きなまし、ペナルティつきの焼きなましへと進める解説。"
+  },
+  {
+    "id": "terry-toyota",
+    "author": "terry_u16",
+    "title": "TOYOTA AHC 至高のアルゴリズム解説会 - Transit Warehouse 解説",
+    "url": "https://speakerdeck.com/terryu16/toyota-ahc-zhi-gao-noarugorizumujie-shuo-hui-transit-warehouse-jie-shuo",
+    "note": "モンテカルロ法と貪欲なプレイアウト、貪欲法のパラメータを焼きなましで調整する解法。"
+  },
+  {
+    "id": "pahcer",
+    "author": "terry_u16",
+    "title": "pahcer",
+    "url": "https://github.com/terry-u16/pahcer",
+    "note": "AHCのローカルテストを並列実行し、相対スコアなどを集計するツール。"
+  },
+  {
+    "id": "chokudai-search",
+    "author": "chokudai",
+    "title": "chokudaiサーチ(ビームサーチ亜種)の利点の話",
+    "url": "http://chokudai.hatenablog.com/entry/2017/04/12/055515",
+    "note": "考案者によるchokudaiサーチの手順、利点と欠点、ビームサーチとの比較実験。"
+  },
+  {
+    "id": "pfn-wilcoxon",
+    "author": "Preferred Networks",
+    "title": "WilcoxonPruner: 統計的検定に基づくOptunaの新しい枝刈り",
+    "url": "https://preferred.jp/ja/blog/tech/wilcoxonpruner/",
+    "note": "多数のケースの平均スコアを最適化するときに、見込みのない試行を早く打ち切る方法。"
+  },
+  {
+    "id": "thunder-mc",
+    "author": "thunder",
+    "title": "AHC典型解法シリーズ第1弾「モンテカルロ法」",
+    "url": "https://qiita.com/thun-c/items/8e7ae0249f1907854763",
+    "note": "AHC015を題材に、ルールベースの解法とモンテカルロ法を組み合わせる記事。"
+  },
+  {
+    "id": "bww-ahc033",
+    "author": "bowwowforeach",
+    "title": "トヨタ自動車プログラミングコンテスト2024#5（AtCoder Heuristic Contest 033）参加記",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2024/05/30/210002",
+    "note": "割り当てのビームサーチ、Zobrist hash、ビットボードでの経路探索を使った解法。"
+  },
+  {
+    "id": "bww-ahc022",
+    "author": "bowwowforeach",
+    "title": "RECRUIT 日本橋ハーフマラソン 2023夏（AtCoder Heuristic Contest 022）",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2023/08/24/205427",
+    "note": "測定誤差の確率から、入口と出口の対応の確率表を更新していく推定。"
+  },
+  {
+    "id": "ats-tco19",
+    "author": "ats5515",
+    "title": "TCO19 Marathon Match Round 1 参加記",
+    "url": "https://ats5515.hatenablog.com/entry/2019/06/19/205853",
+    "note": "区間の入れ替え近傍、前計算による差分のO(1)化、スコアの比を使った温度制御。"
+  },
+  {
+    "id": "thunder-sa",
+    "author": "thunder",
+    "title": "AHC典型解法シリーズ第2弾「焼きなまし法」",
+    "url": "https://qiita.com/thun-c/items/ecd438fde4d237b1f7bc",
+    "note": "AHC002を題材に、初期解、作り直す近傍、受理のしきい値を先に決める高速化を扱う記事。"
+  },
+  {
+    "id": "thunder-beam",
+    "author": "thunder",
+    "title": "AHC典型解法シリーズ第4弾「ビームサーチ」",
+    "url": "https://qiita.com/thun-c/items/98f22c8fcdb1fd827b00",
+    "note": "AHC041を題材に、貪欲法、ビームサーチ、焼きなましを組み合わせていく記事。"
+  },
+  {
+    "id": "thunder-mcmc",
+    "author": "thunder",
+    "title": "AHC典型解法シリーズ第5弾「MCMC」",
+    "url": "https://qiita.com/thun-c/items/7f89becd832002309ff7",
+    "note": "AHC003を題材に、ギブスサンプリングでの推定と、探索と利用のバランスを扱う記事。"
+  },
+  {
+    "id": "terry-practice",
+    "author": "terry_u16",
+    "title": "【ネタバレ注意】AHCの焼きなまし・ビームサーチ練習にオススメの問題まとめ",
+    "url": "https://blog.terry-u16.net/entry/ahc-practice-problem",
+    "note": "焼きなましとビームサーチの練習問題を難易度つきで紹介し、練習の進め方を述べた記事。"
+  },
+  {
+    "id": "terry-pahcer",
+    "author": "terry_u16",
+    "title": "AHCテストケース実行ツールpahcerの使い方",
+    "url": "https://blog.terry-u16.net/entry/how-to-use-pahcer",
+    "note": "ローカルでの評価の落とし穴、テストケース数の目安、pahcerの運用方法。"
+  },
+  {
+    "id": "terry-ahc039",
+    "author": "terry_u16",
+    "title": "THIRD プログラミングコンテスト2024 (AHC039) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc039",
+    "note": "幾何の問題をグリッドに直し、粗いグリッドから細かくしながら焼きなます短期コンテストの解法と時系列。"
+  },
+  {
+    "id": "terry-ahc040",
+    "author": "terry_u16",
+    "title": "HACK TO THE FUTURE 2025 (AHC040) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc040",
+    "note": "推定、MCMC、ビームサーチ、MCTS、SIMDを組み合わせた長期コンテストの解法。"
+  },
+  {
+    "id": "terry-ahc042",
+    "author": "terry_u16",
+    "title": "AHC042 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc042",
+    "note": "まとまった操作を1手にしたビームサーチと、DPでの遷移候補の生成。"
+  },
+  {
+    "id": "terry-ahc044",
+    "author": "terry_u16",
+    "title": "AHC044 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc044",
+    "note": "シミュレーションで評価する焼きなましと、改善しそうな近傍を重みつきで選ぶ工夫。"
+  },
+  {
+    "id": "terry-ahc013-diary",
+    "author": "terry_u16",
+    "title": "RECRUIT 日本橋ハーフマラソン 2022夏（AtCoder Heuristic Contest 013）日記",
+    "url": "https://blog.terry-u16.net/entry/ahc013-diary",
+    "note": "長期コンテストの8日間の作業記録。近傍の作り直し、高速化、提出の判断。"
+  },
+  {
+    "id": "terry-ahc047",
+    "author": "terry_u16",
+    "title": "トヨタ自動車プログラミングコンテスト2025#2 (AHC047) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc047",
+    "note": "確率の制約を対数で扱う評価関数と、重要な要素から順に確保する貪欲法。"
+  },
+  {
+    "id": "terry-ahc048",
+    "author": "terry_u16",
+    "title": "MC Digital プログラミングコンテスト2025 (AHC048) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc048",
+    "note": "使える手数に応じた解法の切り替えと、色を3次元の点として扱う考え方。"
+  },
+  {
+    "id": "terry-ahc051",
+    "author": "terry_u16",
+    "title": "THIRD プログラミングコンテスト 2025 夏 (AHC051) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc051",
+    "note": "難しい問題を段階に分け、組合せの部分を先に評価してから幾何の実装に進む解法。"
+  },
+  {
+    "id": "terry-ahc032",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 032 (AHC032) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc032",
+    "note": "確定したマスだけを評価するビームサーチと、短期コンテストでの方針の決め方。"
+  },
+  {
+    "id": "terry-ahc027",
+    "author": "terry_u16",
+    "title": "HACK TO THE FUTURE 2024 (AHC027) 解説",
+    "url": "https://blog.terry-u16.net/entry/httf2024",
+    "note": "問題を緩和して理想の解と下界を求め、そこから初期解と評価を作る解法。"
+  },
+  {
+    "id": "terry-bit",
+    "author": "terry_u16",
+    "title": "AHC061で学ぶ、明日使えないビット演算 ～pdep/pextを添えて～",
+    "url": "https://blog.terry-u16.net/entry/ahc061-bit-operations",
+    "note": "ビットボードでのBFS、popcnt、tzcnt、pdep、pextの使い方と注意点。"
+  },
+  {
+    "id": "terry-ahc030",
+    "author": "terry_u16",
+    "title": "THIRD プログラミングコンテスト2023 (AHC030) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc030",
+    "note": "相互情報量での質問選び、候補のプール、入力に応じたパラメータの補間。"
+  },
+  {
+    "id": "terry-ahc018",
+    "author": "terry_u16",
+    "title": "RECRUIT 日本橋ハーフマラソン 2023冬（AtCoder Heuristic Contest 018）解説",
+    "url": "https://blog.terry-u16.net/entry/ahc018",
+    "note": "ガウス過程回帰での推定と、シュタイナー木の焼きなまし、期待コストのDP。"
+  },
+  {
+    "id": "terry-ahc016",
+    "author": "terry_u16",
+    "title": "HACK TO THE FUTURE 2023 予選 (AHC016) 解説",
+    "url": "https://blog.terry-u16.net/entry/httf2023-qual",
+    "note": "ノイズに耐える符号化、多数決での復元、混同行列を使った判定。"
+  },
+  {
+    "id": "terry-ahc013",
+    "author": "terry_u16",
+    "title": "RECRUIT 日本橋ハーフマラソン 2022夏（AtCoder Heuristic Contest 013）解説",
+    "url": "https://blog.terry-u16.net/entry/ahc013",
+    "note": "操作列と接続関係を同時に焼きなます解法と、5種類の近傍。"
+  },
+  {
+    "id": "terry-ahc012",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 012 (AHC012) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc012",
+    "note": "格子状の切り方に限定した焼きなましと、分布の一致度を加えた評価関数。"
+  },
+  {
+    "id": "terry-ahc011",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 011 (AHC011) 解説",
+    "url": "https://blog.terry-u16.net/entry/ahc011",
+    "note": "完成図を先に作る2段階の解法と、双方向のIDA*でのスライドパズルの探索。"
+  },
+  {
+    "id": "terry-awtf2025",
+    "author": "terry_u16",
+    "title": "AtCoder World Tour Finals 2025 Heuristic 参加記",
+    "url": "https://blog.terry-u16.net/entry/awtf2025heuristic",
+    "note": "10時間のオンサイトコンテストでの方針の決め方、時間の使い方、反省。"
+  },
+  {
+    "id": "terry-awtf2026",
+    "author": "terry_u16",
+    "title": "AtCoder World Tour Finals 2026 Heuristic 参加記",
+    "url": "https://blog.terry-u16.net/entry/awtf2026heuristic",
+    "note": "2日間のオンサイトコンテストでの準備、行き詰まったときの過ごし方、反省。"
+  },
+  {
+    "id": "terry-toyota-final",
+    "author": "terry_u16",
+    "title": "TOYOTA Programming Contest 2023 Summer final 解説",
+    "url": "https://blog.terry-u16.net/entry/toyota2023summer-final",
+    "note": "短時間のオンサイトで、貪欲法からモンテカルロ法へ進めた過程と判断。"
+  },
+  {
+    "id": "terry-ahc020-writer",
+    "author": "terry_u16",
+    "title": "ALGO ARTIS プログラミングコンテスト2023（AtCoder Heuristic Contest 020）writer記",
+    "url": "https://blog.terry-u16.net/entry/ahc020-writer",
+    "note": "問題を作る側から見た、題材の選び方とスコアの設計。"
+  },
+  {
+    "id": "terry-mayors",
+    "author": "terry_u16",
+    "title": "競技プログラミングの鉄則 Mayor's Challenge 解説",
+    "url": "https://blog.terry-u16.net/entry/tessoku-meyors-challenge",
+    "note": "区割りの問題での移動と交換の近傍、平坦になりにくい評価関数、貪欲法の初期解。"
+  },
+  {
+    "id": "terry-ahc011-diary",
+    "author": "terry_u16",
+    "title": "AHC011日記",
+    "url": "https://blog.terry-u16.net/entry/ahc011-diary",
+    "note": "長期コンテストの9日間の作業記録。方針の行き詰まりと打開の経過。"
+  },
+  {
+    "id": "bww-ahc031",
+    "author": "bowwowforeach",
+    "title": "MC Digital プログラミングコンテスト2024（AtCoder Heuristic Contest 031）参加記",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2024/04/03/185726",
+    "note": "区画を短冊の形に限り、区切り線を焼きなます解法と、複雑な方針に時間を使った反省。"
+  },
+  {
+    "id": "bww-ahc017",
+    "author": "bowwowforeach",
+    "title": "THIRD プログラミングコンテスト 2022 （AtCoder Heuristic Contest 017）参加記",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2023/02/09/210819",
+    "note": "頂点を間引いた評価と、最短経路木の差分更新での高速化。"
+  },
+  {
+    "id": "bww-ahc014",
+    "author": "bowwowforeach",
+    "title": "estie プログラミングコンテスト2022（AtCoder Heuristic Contest 014）参加記",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2022/10/03/221631",
+    "note": "破壊再構築の焼きなまし、前半と後半で変える探索の範囲、入力に応じたパラメータ。"
+  },
+  {
+    "id": "bww-ahc013",
+    "author": "bowwowforeach",
+    "title": "RECRUIT 日本橋ハーフマラソン 2022夏（AtCoder Heuristic Contest 013）参加記",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2022/08/18/205537",
+    "note": "移動だけを状態にする焼きなましと、巻き戻しの近傍、複数の状態の並行した探索。"
+  },
+  {
+    "id": "bww-ahc009",
+    "author": "bowwowforeach",
+    "title": "モノグサ プログラミングコンテスト2022（AtCoder Heuristic Contest 009）参加記",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2022/03/27/101117",
+    "note": "短期コンテストでの時間の使い方と、近傍を1つずつ足して確かめた経過。"
+  },
+  {
+    "id": "thunder-localtest",
+    "author": "thunder",
+    "title": "AHC初心者向け、ローカルテスタの使い方",
+    "url": "https://qiita.com/thun-c/items/bb090c1d8d4c38d5e4d2",
+    "note": "公式ツールのgen、tester、visの使い方と、回による違い。"
+  },
+  {
+    "id": "ats-mm119",
+    "author": "ats5515",
+    "title": "MM119参加記",
+    "url": "https://ats5515.hatenablog.com/entry/2020/08/06/204749",
+    "note": "構築のパラメータを山登りする解法と、多スタートでの候補の絞り込み。"
+  },
+  {
+    "id": "ats-mm118",
+    "author": "ats5515",
+    "title": "MM118 参加ログ",
+    "url": "https://ats5515.hatenablog.com/entry/2020/05/28/031328",
+    "note": "経路の局所的な書き換えの近傍と、代わりの目的関数で作る初期解。"
+  },
+  {
+    "id": "ats-knights",
+    "author": "ats5515",
+    "title": "TCO18 MM Lightning 2 KnightsAndPawns 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/08/01/010231",
+    "note": "制約をゆるめた状態を保って探索し、最後に制約を満たす解へ直す焼きなまし。"
+  },
+  {
+    "id": "ats-crystal",
+    "author": "ats5515",
+    "title": "TCO18 MM R2 CrystalLighting 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/06/15/214555",
+    "note": "近傍の条件、コストを段階的に変える評価関数、実装の進め方の反省。"
+  },
+  {
+    "id": "ats-roads",
+    "author": "ats5515",
+    "title": "TCO18 MM R1 RoadsAndJunctions 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/05/17/122549",
+    "note": "評価器のバグで期間の大半を失った経験と、順位の式に合わせた手元の指標。"
+  },
+  {
+    "id": "ats-points",
+    "author": "ats5515",
+    "title": "Marathon Match 97 PointsOnTheCircle 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/02/02/134252",
+    "note": "swapの相手の選び方と、温度を0まで下げることを繰り返す焼きなまし。"
+  },
+  {
+    "id": "ats-recolor",
+    "author": "ats5515",
+    "title": "TCO18 MM Lightning Round Map Recoloring 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/05/17/120806",
+    "note": "個数を固定して実行可能解を探す焼きなましと、その外側の改善のループ。"
+  },
+  {
+    "id": "ats-slot",
+    "author": "ats5515",
+    "title": "Marathon Match 99 BrokenSlotMachines 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/05/17/120731",
+    "note": "情報を集める行動と利用する行動を、UCBの形の評価で切り替える解法。"
+  },
+  {
+    "id": "ats-invest",
+    "author": "ats5515",
+    "title": "TCO18 MM R3 InvestmentAdvice 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/07/19/101932",
+    "note": "情報源の信頼度をベイズ更新で推定し、期待値の高い順に選ぶ解法。"
+  },
+  {
+    "id": "ats-cc",
+    "author": "ats5515",
+    "title": "Marathon Match 94 ConnectedComponent 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2017/08/24/154118",
+    "note": "順列を端から決めるビームサーチと、実測から求めるビーム幅。"
+  },
+  {
+    "id": "ats-graph",
+    "author": "ats5515",
+    "title": "Tco17 mm r1 GraphDrawingに参加しました",
+    "url": "https://ats5515.hatenablog.com/entry/2017/04/29/080520",
+    "note": "次元を足した焼きなまし、なめらかな代わりの評価関数、格子の上での仕上げ。"
+  },
+  {
+    "id": "aplysia-mi",
+    "author": "aplysia",
+    "title": "相互情報量を学んでもっとうまくAHC030を解こう！",
+    "url": "https://qiita.com/aplysia/items/29a4fb4573fc1b8dec79",
+    "note": "相互情報量の計算の式と、質問するマスの集合を山登りで選ぶ実装。"
+  },
+  {
+    "id": "terry-yukicoder",
+    "author": "terry_u16",
+    "title": "yukicoder score contest 2 writer記",
+    "url": "https://blog.terry-u16.net/entry/yukicoder-score-contest-2",
+    "note": "巡回路とシュタイナー木を組み合わせた問題の作問の記録と、想定した解法。"
+  },
+  {
+    "id": "bww-steiner",
+    "author": "bowwowforeach",
+    "title": "プリム法ベースのシュタイナー木",
+    "url": "https://bowwowforeach.hatenablog.com/entry/2023/06/18/213212",
+    "note": "速さを優先するシュタイナー木の近似の作り方。"
+  },
+  {
+    "id": "ats-cove",
+    "author": "ats5515",
+    "title": "COVE VS Reborn 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2019/06/19/205815",
+    "note": "対戦型の連鎖ゲームでのビームサーチの幅と評価関数の工夫。"
+  },
+  {
+    "id": "ats-httf2018",
+    "author": "ats5515",
+    "title": "HACK TO THE FUTURE2018予選 参加記録",
+    "url": "https://ats5515.hatenablog.com/entry/2018/02/19/000417",
+    "note": "貪欲法、山登り、焼きなましの順に改善して1位になった8時間コンテストの記録。"
+  },
+  {
+    "id": "terry-ahc006",
+    "author": "terry_u16",
+    "title": "AHC006初心者向け解説 ～貪欲だけで順位表2ページ目を目指す～",
+    "url": "https://blog.terry-u16.net/entry/ahc006-for-beginners",
+    "note": "貪欲法を段階的に改良して、511位相当から37位相当まで上げる解説。"
+  },
+  {
+    "id": "terry-ahc001-howto",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 001 (AHC001) 初心者向け解説",
+    "url": "https://blog.terry-u16.net/entry/ahc001-how-to",
+    "note": "自明な解、山登り、焼きなましと進める解説と、長期コンテストでのコードの書き方。"
+  },
+  {
+    "id": "terry-ahc009",
+    "author": "terry_u16",
+    "title": "モノグサプログラミングコンテスト（AHC009）解説",
+    "url": "https://blog.terry-u16.net/entry/ahc009",
+    "note": "乱数を入れた初期解、期待値をDPで求める評価、短期コンテストでの提出の進め方。"
+  },
+  {
+    "id": "terry-ahc008",
+    "author": "terry_u16",
+    "title": "MC Digital プログラミングコンテスト2022（AHC008）解説",
+    "url": "https://blog.terry-u16.net/entry/ahc008",
+    "note": "DP、フロー、マッチング、モンテカルロ法を組み合わせた解法。"
+  },
+  {
+    "id": "terry-ahc007",
+    "author": "terry_u16",
+    "title": "THIRDプログラミングコンテスト2021（AHC007）解説",
+    "url": "https://blog.terry-u16.net/entry/ahc007-explanation",
+    "note": "採用する場合としない場合の期待値を、モンテカルロ法で比べる解法。"
+  },
+  {
+    "id": "terry-httf2022-final",
+    "author": "terry_u16",
+    "title": "HACK TO THE FUTURE 2022 本選オープン 解説＋参加記",
+    "url": "https://blog.terry-u16.net/entry/httf2022-final",
+    "note": "余っている時間を別の目的に使う発想と、パラメータの全探索、候補を絞った仕上げ。"
+  },
+  {
+    "id": "terry-ahc003",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 003 (AHC003) 参加記",
+    "url": "https://blog.terry-u16.net/entry/ahc003",
+    "note": "観測より未知数が多い推定を、正則化と生成パラメータの推定で解いた記録。"
+  },
+  {
+    "id": "terry-ahc004",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 004 (AHC004) 参加記",
+    "url": "https://blog.terry-u16.net/entry/ahc004",
+    "note": "貪欲法の順番と向きを山登りで改善した解法と、ビームサーチを見切った判断。"
+  },
+  {
+    "id": "terry-ahc001",
+    "author": "terry_u16",
+    "title": "AtCoder Heuristic Contest 001 (AHC001) 参加記",
+    "url": "https://blog.terry-u16.net/entry/ahc001",
+    "note": "壊して作り直す近傍、時間で変える目標、試して効果がなかった案の一覧。"
+  },
+  {
+    "id": "terry-ahc008-diary",
+    "author": "terry_u16",
+    "title": "AHC008日記",
+    "url": "https://blog.terry-u16.net/entry/ahc008-diary",
+    "note": "2週間のコンテストの作業記録。段階ごとのスコアと、終盤のテストで見つけたバグ。"
+  },
+  {
+    "id": "terry-httf2021-final",
+    "author": "terry_u16",
+    "title": "HACK TO THE FUTURE 2021 本戦オープン参加記",
+    "url": "https://blog.terry-u16.net/entry/httf-2021-final",
+    "note": "矩形の単位で変える焼きなましと、ビルドの設定で試行回数が減っていた失敗。"
+  },
+  {
+    "id": "kiyohiro8-ahc002",
+    "author": "kiyohiro8",
+    "title": "AHC002に探索アルゴリズムを色々適用してみる",
+    "url": "https://zenn.dev/kiyohiro8/articles/4f1590c3d3e8d4",
+    "note": "ランダム、貪欲、ビームサーチ、chokudaiサーチをAHC002で比べた記事。"
+  }
+]
