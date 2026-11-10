@@ -15,6 +15,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'tips集', link: '/tips/' },
+      { text: '過去AHC', link: '/ahc/' },
       { text: '手法', link: '/methods/greedy' },
       { text: 'テクニック', link: '/techniques/random' },
       { text: 'スニペット', link: '/snippets/' },
@@ -54,6 +55,21 @@ export default defineConfig({
           { text: 'テストとパラメータ調整', link: '/tips/testing' },
           { text: '時間の使い方と学び方', link: '/tips/time' },
           { text: 'デバッグとよくあるミス', link: '/tips/debug' },
+        ],
+      },
+      {
+        text: '過去AHCメモ',
+        collapsed: false,
+        items: [
+          { text: '一覧', link: '/ahc/' },
+          { text: '横断メモ', link: '/ahc/patterns' },
+          { text: 'AHC001〜010', link: '/ahc/001-010' },
+          { text: 'AHC011〜020', link: '/ahc/011-020' },
+          { text: 'AHC021〜030', link: '/ahc/021-030' },
+          { text: 'AHC031〜040', link: '/ahc/031-040' },
+          { text: 'AHC041〜050', link: '/ahc/041-050' },
+          { text: 'AHC051〜060', link: '/ahc/051-060' },
+          { text: 'AHC061〜074', link: '/ahc/061-074' },
         ],
       },
       {
@@ -136,7 +152,7 @@ export default defineConfig({
         translations: {
           button: { buttonText: '検索', buttonAriaLabel: '検索' },
           modal: {
-            noResultsText: '見つかりませんでした',
+            noResultsText: '見つからなかった',
             resetButtonTitle: '消去',
             footer: { selectText: '選択', navigateText: '移動', closeText: '閉じる' },
           },

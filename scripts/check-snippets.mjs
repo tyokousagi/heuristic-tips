@@ -41,6 +41,12 @@ for (const f of readdirSync(join(dir, 'tests')).filter((f) => f.endsWith('.cpp')
   }
 }
 
+// 過去AHCの検証コード（verify/*.cpp）は、実行に時間がかかるのでコンパイルだけ確かめる
+const verifyDir = join(root, 'verify')
+for (const f of readdirSync(verifyDir).filter((f) => f.endsWith('.cpp')).sort()) {
+  run(`compile verify/${f}`, 'g++', [...FLAGS, '-fsyntax-only', join(verifyDir, f)])
+}
+
 const pythons = process.platform === 'win32' ? [['py', '-3'], ['python']] : [['python3'], ['python']]
 const py = pythons.find(([cmd, ...pre]) => spawnSync(cmd, [...pre, '--version']).status === 0)
 if (py) {
