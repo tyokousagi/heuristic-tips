@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#normal-prob
+// https://tyokousagi.github.io/heuristic-tips/snippets/#normal-prob
 #pragma once
 #include <algorithm>
 #include <cmath>

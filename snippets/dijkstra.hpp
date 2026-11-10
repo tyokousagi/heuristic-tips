@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#dijkstra
+// https://tyokousagi.github.io/heuristic-tips/snippets/#dijkstra
 #pragma once
 #include <functional>
 #include <limits>

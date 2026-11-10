@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#beam-search
+// https://tyokousagi.github.io/heuristic-tips/snippets/#beam-search
 #pragma once
 #include <algorithm>
 #include <cstdint>

@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#chokudai-search
+// https://tyokousagi.github.io/heuristic-tips/snippets/#chokudai-search
 #pragma once
 #include <algorithm>
 #include <queue>

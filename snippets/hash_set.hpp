@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#hash-set
+// https://tyokousagi.github.io/heuristic-tips/snippets/#hash-set
 #pragma once
 #include <algorithm>
 #include <cstdint>

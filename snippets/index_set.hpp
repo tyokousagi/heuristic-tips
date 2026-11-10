@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#index-set
+// https://tyokousagi.github.io/heuristic-tips/snippets/#index-set
 #pragma once
 #include <cstdint>
 #include <vector>

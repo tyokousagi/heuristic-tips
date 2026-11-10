@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#timer
+// https://tyokousagi.github.io/heuristic-tips/snippets/#timer
 #pragma once
 #include <chrono>
 

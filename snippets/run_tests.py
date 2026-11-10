@@ -1,4 +1,4 @@
-# __SITE_URL__/snippets/#run-tests
+# https://tyokousagi.github.io/heuristic-tips/snippets/#run-tests
 """複数のテストケースを並列に実行し、スコアを集計する。
 
 使い方の例:

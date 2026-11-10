@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#template
+// https://tyokousagi.github.io/heuristic-tips/snippets/#template
 // AHC 用のひな形。入力、解の出力、時間の管理、乱数、スコアの表示をひととおり入れてある。
 #pragma GCC optimize("O3,unroll-loops")
 #include <algorithm>

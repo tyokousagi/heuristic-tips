@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#log-table
+// https://tyokousagi.github.io/heuristic-tips/snippets/#log-table
 #pragma once
 #include <cmath>
 #include <cstdint>

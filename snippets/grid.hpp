@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#grid
+// https://tyokousagi.github.io/heuristic-tips/snippets/#grid
 #pragma once
 #include <array>
 #include <vector>

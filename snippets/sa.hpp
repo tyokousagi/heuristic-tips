@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#sa
+// https://tyokousagi.github.io/heuristic-tips/snippets/#sa
 #pragma once
 #include <cmath>
 

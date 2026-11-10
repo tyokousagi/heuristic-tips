@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#zobrist
+// https://tyokousagi.github.io/heuristic-tips/snippets/#zobrist
 #pragma once
 #include <cstdint>
 #include <vector>

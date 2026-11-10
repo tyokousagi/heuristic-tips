@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#stamp-set
+// https://tyokousagi.github.io/heuristic-tips/snippets/#stamp-set
 #pragma once
 #include <algorithm>
 #include <cstdint>

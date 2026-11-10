@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#tsp
+// https://tyokousagi.github.io/heuristic-tips/snippets/#tsp
 #pragma once
 #include <algorithm>
 #include <vector>

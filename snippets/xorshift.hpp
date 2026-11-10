@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#xorshift
+// https://tyokousagi.github.io/heuristic-tips/snippets/#xorshift
 #pragma once
 #include <cstdint>
 

@@ -1,4 +1,4 @@
-// __SITE_URL__/snippets/#dsu
+// https://tyokousagi.github.io/heuristic-tips/snippets/#dsu
 #pragma once
 #include <utility>
 #include <vector>
